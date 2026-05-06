@@ -2,6 +2,9 @@ let cyberButton = document.querySelector('#cyber-button');
 let pageBody = document.querySelector('body');
 
 
+
+
+
 function toggleCyberMode() {
     pageBody.classList.toggle('cyber-mode');
     
@@ -12,7 +15,7 @@ function toggleCyberMode() {
 
     else {
         cyberButton.textContent = "Enter Cyberpunk Mode";
-        cyberButton.style.color = "##060607"; 
+        cyberButton.style.color = "#060607"; 
     }
 }
 

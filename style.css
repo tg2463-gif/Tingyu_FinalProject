@@ -28,7 +28,7 @@ body {
 }
 
 h1{
-    font-family: 'ManufacturingConsent';
+    font-family: 'ManufacturingConsent', 'Anton', sans-serif;
     color: black;
     font-size: 35pt;
     text-align: center; 
