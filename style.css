@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Garamond';
+    src: url('fonts/EBGaramond-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'ManufacturingConsent';
+    src: url('fonts/ManufacturingConsent-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('fonts/Anton-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Honk';
+    src: url('fonts/Honk-Regular-VariableFont_MORF,SHLN.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15pt;
+    background-color: #FAF9F6;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+h1{
+    font-family: 'ManufacturingConsent';
+    color: black;
+    font-size: 35pt;
+    text-align: center; 
+    margin-bottom: 0.5em;
+}
+
+h2, h3 {
+    font-family: 'Anton', serif;
+    margin-top: 0;
+}
+
+h2 { 
+    font-size: 20pt; 
+    border-bottom: 3px solid #c0392b; 
+    padding-bottom: 5px; 
+}
+
+p { 
+    font-family: 'Garamond';
+    font-size: 15pt; 
+    margin-bottom: 1em; 
+}
+
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    font-family: 'Anton';
+    border: 3px solid #060607;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+a:link { 
+    color: #c0392b; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:visited { 
+    color: #7f8c8d; 
+}
+
+a:hover { 
+    color: #e74c3c; 
+    text-decoration: underline;  
+}
+
+a:active { color: #000; 
+    background-color: #f1c40f;
+}
+
+#section111 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.me img {
+    width:100%;
+    height: auto;
+    border: 3px solid #D2D2D0;
+
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #060607;
+}
+
+.page2 {
+    margin-top: 50px;
+
+}
+
+.school {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.school img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #060607;
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.video video {
+    width: 100%;
+    border: 3px solid #060607;
+}
+
+.unitednations img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #060607;
+}
+
+.cyber-button {
+    display: block;
+    width: 100%;
+    font-family: 'Anton'; 
+    background-color: none;
+    color: #060607; 
+    padding: 30px; 
+    border: 3px solid #060607; 
+    font-size: 14pt; 
+    letter-spacing: 2px;
+}
+
+.fulllength {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.cyber-mode {
+    background-color: black;
+}
+
+.cyber-mode h1 {
+    font-family: "Honk";
+    font-size: 50px;
+}
+
+.cyber-mode h2 {
+    font-family: "Honk";
+    font-size: 30px;
+}
+
+.cyber-mode p {
+    font-family: "Anton";
+    color: yellow; 
+
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 9pt;
+    font-style: italic;
+    border-top: 3px solid #bdc3c7;
+}
+
+@media (min-width: 600px) {
+    #section111 {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+
+    .school {
+        grid-template-columns: 1fr 1fr;
+    }
+}
